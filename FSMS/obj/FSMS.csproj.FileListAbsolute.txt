@@ -1,0 +1,156 @@
+E:\Fiber Spinning\FSMS\FSMS\FSMS\obj\Debug\ResolveAssemblyReference.cache
+E:\Fiber Spinning\FSMS\FSMS\FSMS\obj\Debug\FSMS.Properties.Resources.resources
+E:\Fiber Spinning\FSMS\FSMS\FSMS\obj\Debug\FSMS.csproj.GenerateResource.Cache
+E:\Fiber Spinning\FSMS\FSMS\FSMS\bin\Debug\FSMS.exe
+E:\Fiber Spinning\FSMS\FSMS\FSMS\bin\Debug\FSMS.pdb
+E:\Fiber Spinning\FSMS\FSMS\FSMS\bin\Debug\DevComponents.DotNetBar2.dll
+E:\Fiber Spinning\FSMS\FSMS\FSMS\obj\Debug\FSMS.exe
+E:\Fiber Spinning\FSMS\FSMS\FSMS\obj\Debug\FSMS.pdb
+E:\Fiber Spinning\FSMS\FSMS\FSMS\obj\Debug\FSMS.view.frmAbout.resources
+E:\Fiber Spinning\FSMS\FSMS\FSMS\obj\Debug\FSMS.view.frmMain.resources
+E:\Fiber Spinning\FSMS\FSMS\FSMS\obj\Debug\FSMS.view.frmHelp.resources
+E:\Fiber Spinning\FSMS\FSMS\FSMS\obj\Debug\FSMS.view.frmBatch.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.exe
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.pdb
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\bin\Debug\db\FSMF.mdb
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\bin\Debug\FSMS.exe
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\bin\Debug\FSMS.pdb
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\bin\Debug\DevComponents.DotNetBar2.dll
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\ResolveAssemblyReference.cache
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmAbout.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmBatch.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmClassCalendar.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmClass.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmClassReport.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmClock.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmDayReport.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmDevice.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmDevState.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmEvent.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmGroup.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmHelp.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmLogin.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmMain.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.Properties.Resources.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmMonthReport.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmSilk.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmSmallPkg.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmTest.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmUserMgm.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.csproj.GenerateResource.Cache
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\RdlCompile.cache
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\RdlCompile.compiled
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.DayReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\bin\Debug\FSMS.exe.config
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.ClassReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.MonthReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\bin\Release\FSMS.exe.config
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\bin\Release\db\FSMF.mdb
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\bin\Release\FSMS.exe
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\bin\Release\FSMS.pdb
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\bin\Release\DevComponents.DotNetBar2.dll
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\ResolveAssemblyReference.cache
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.DayReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.ClassReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.MonthReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmAbout.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmBatch.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmClassCalendar.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmClass.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmClassReport.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmClock.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmDayReport.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmDevice.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmDevState.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmEvent.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmGroup.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmHelp.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmLogin.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmMain.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.Properties.Resources.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmMonthReport.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmSilk.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmSmallPkg.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmTest.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.view.frmUserMgm.resources
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.csproj.GenerateResource.Cache
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\RdlCompile.cache
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\RdlCompile.compiled
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.exe
+D:\private\develop\Project\纺丝线监控系统\v0.05\FSMS\FSMS\obj\Release\FSMS.pdb
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\bin\Debug\FSMS.exe.config
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.exe
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.pdb
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\ResolveAssemblyReference.cache
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.DayReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.ClassReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.MonthReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmAbout.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmBatch.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmClassCalendar.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmClass.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmClassReport.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmClock.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmDayReport.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmDevice.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmDevState.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmEvent.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmGroup.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmHelp.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmLogin.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmMain.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.Properties.Resources.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmMonthReport.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmSilk.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmSmallPkg.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmTest.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.csproj.GenerateResource.Cache
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\RdlCompile.cache
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\RdlCompile.compiled
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmConfig.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\obj\Debug\FSMS.view.frmUser.resources
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\bin\Debug\db\FSMF.mdb
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\bin\Debug\FSMS.exe
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\bin\Debug\FSMS.pdb
+D:\private\develop\Project\纺丝线监控系统\v1.00\v0.05\FSMS\FSMS\bin\Debug\DevComponents.DotNetBar2.dll
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\bin\Debug\FSMS.exe.config
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.exe
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.pdb
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\bin\Debug\db\FSMF.mdb
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\bin\Debug\FSMS.exe
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\bin\Debug\FSMS.pdb
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\bin\Debug\DevComponents.DotNetBar2.dll
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\ResolveAssemblyReference.cache
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.DayReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.ClassReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.MonthReport.rdlc
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmAbout.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmBatch.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmClassCalendar.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmClass.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmClassReport.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmClock.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmConfig.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmDayReport.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmDevice.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmDevState.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmEvent.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmGroup.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmHelp.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmLogin.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmMain.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.Properties.Resources.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmMonthReport.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmSilk.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmSmallPkg.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmTest.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.view.frmUser.resources
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\FSMS.csproj.GenerateResource.Cache
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\RdlCompile.cache
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Debug\RdlCompile.compiled
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\bin\Release\FSMS.exe.config
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Release\FSMS.exe
+D:\private\develop\Project\纺丝线监控系统\v3.00\FSMS\FSMS\obj\Release\FSMS.pdb
+E:\NikWorkspace\Fiber Spinning\FSMS\FSMS\bin\Debug\FSMS.exe.config
+E:\NikWorkspace\Fiber Spinning\FSMS\FSMS\obj\Debug\FSMS.exe
+E:\NikWorkspace\Fiber Spinning\FSMS\FSMS\obj\Debug\FSMS.pdb

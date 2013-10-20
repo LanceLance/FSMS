@@ -1,0 +1,338 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A673077E-E9A8-4E97-B312-07ABFE5A7A54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FSMS</RootNamespace>
+    <AssemblyName>FSMS</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=6.8.2.0, Culture=neutral, PublicKeyToken=bd7258ab2241255c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="controler\BatchMgmControler.cs" />
+    <Compile Include="controler\ClassMgmControler.cs" />
+    <Compile Include="controler\DeviceMgmControler.cs" />
+    <Compile Include="controler\DistributionControler.cs" />
+    <Compile Include="controler\EventMgmControler.cs" />
+    <Compile Include="controler\FsmsContextControler.cs" />
+    <Compile Include="controler\GroupMgmControler.cs" />
+    <Compile Include="controler\ReportMgmControler.cs" />
+    <Compile Include="controler\UserMgmControler.cs" />
+    <Compile Include="FSMFDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FSMFDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="model\Batch.cs" />
+    <Compile Include="model\BatchDevice.cs" />
+    <Compile Include="model\Class.cs" />
+    <Compile Include="model\ClassCalendar.cs" />
+    <Compile Include="model\ClassReport.cs" />
+    <Compile Include="model\DataService.cs" />
+    <Compile Include="common\GlobalDefiniation.cs" />
+    <Compile Include="common\Logger.cs" />
+    <Compile Include="model\DayReport.cs" />
+    <Compile Include="model\Device.cs" />
+    <Compile Include="model\DeviceEvent.cs" />
+    <Compile Include="model\Group.cs" />
+    <Compile Include="model\MonthReport.cs" />
+    <Compile Include="model\MsgQueue.cs" />
+    <Compile Include="model\FReciver.cs" />
+    <Compile Include="model\FSender.cs" />
+    <Compile Include="model\MsgStruct.cs" />
+    <Compile Include="model\SerialTransfer.cs" />
+    <Compile Include="model\FThread.cs" />
+    <Compile Include="model\FThreadPool.cs" />
+    <Compile Include="model\FWorker.cs" />
+    <Compile Include="common\Utils.cs" />
+    <Compile Include="model\MsgSendQueue.cs" />
+    <Compile Include="model\MsgQueueMonitor.cs" />
+    <Compile Include="model\MsgRespQueue.cs" />
+    <Compile Include="test\MsgQueueTest.cs" />
+    <Compile Include="view\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmBatch.Designer.cs">
+      <DependentUpon>frmBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmClassCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmClassCalendar.Designer.cs">
+      <DependentUpon>frmClassCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmClass.Designer.cs">
+      <DependentUpon>frmClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmClassReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmClassReport.Designer.cs">
+      <DependentUpon>frmClassReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmClock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmConfig.Designer.cs">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmClock.Designer.cs">
+      <DependentUpon>frmClock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmDayReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmDayReport.Designer.cs">
+      <DependentUpon>frmDayReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmDevice.Designer.cs">
+      <DependentUpon>frmDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmDevState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmDevState.Designer.cs">
+      <DependentUpon>frmDevState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmEvent.Designer.cs">
+      <DependentUpon>frmEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmGroup.Designer.cs">
+      <DependentUpon>frmGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="view\frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmBatch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmClassCalendar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClassCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmClass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmClassReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClassReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmClock.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmConfig.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmDayReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDayReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmDevice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmDevState.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDevState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmEvent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmHelp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmMonthReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMonthReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmSilk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSilk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmSmallPkg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSmallPkg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\DayReport.rdlc" />
+    <EmbeddedResource Include="view\ClassReport.rdlc" />
+    <EmbeddedResource Include="view\MonthReport.rdlc" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="FSMFDataSet.xsc">
+      <DependentUpon>FSMFDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FSMFDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FSMFDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FSMFDataSet.xss">
+      <DependentUpon>FSMFDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="view\frmMonthReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmMonthReport.Designer.cs">
+      <DependentUpon>frmMonthReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmSilk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmSilk.Designer.cs">
+      <DependentUpon>frmSilk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmSmallPkg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmSmallPkg.Designer.cs">
+      <DependentUpon>frmSmallPkg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frmUser.Designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="db\FSMF.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dll\DevComponents.DotNetBar2.dll" />
+    <Content Include="dll\INPOUT32.DLL" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

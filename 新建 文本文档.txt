@@ -1,0 +1,373 @@
+namespace FSMS.view
+{
+    partial class frmEvent
+    {
+        /// <summary>
+        /// 必需的设计器变量。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清理所有正在使用的资源。
+        /// </summary>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows 窗体设计器生成的代码
+
+        /// <summary>
+        /// 设计器支持所需的方法 - 不要
+        /// 使用代码编辑器修改此方法的内容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dgvEvent = new System.Windows.Forms.DataGridView();
+            this.DevNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EventType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SilkNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EventTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupPanel5 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.cmbSleId = new System.Windows.Forms.ComboBox();
+            this.chkAction = new System.Windows.Forms.CheckBox();
+            this.btnQuery = new System.Windows.Forms.Button();
+            this.dtpEndTime = new System.Windows.Forms.DateTimePicker();
+            this.dtpEndDay = new System.Windows.Forms.DateTimePicker();
+            this.dtpStartTime = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dtpStartDay = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtEventCode = new System.Windows.Forms.TextBox();
+            this.chkEventCode = new System.Windows.Forms.CheckBox();
+            this.groupPanel6 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.rbtnStop = new System.Windows.Forms.RadioButton();
+            this.rbtnWarnning = new System.Windows.Forms.RadioButton();
+            this.rbtnEvent = new System.Windows.Forms.RadioButton();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEvent)).BeginInit();
+            this.groupPanel5.SuspendLayout();
+            this.groupPanel6.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // dgvEvent
+            // 
+            this.dgvEvent.BackgroundColor = System.Drawing.SystemColors.ButtonShadow;
+            this.dgvEvent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEvent.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DevNo,
+            this.EventType,
+            this.SilkNo,
+            this.EventTime});
+            this.dgvEvent.Location = new System.Drawing.Point(12, 109);
+            this.dgvEvent.MultiSelect = false;
+            this.dgvEvent.Name = "dgvEvent";
+            this.dgvEvent.RowTemplate.Height = 23;
+            this.dgvEvent.Size = new System.Drawing.Size(768, 345);
+            this.dgvEvent.TabIndex = 0;
+            // 
+            // DevNo
+            // 
+            this.DevNo.HeaderText = "设备号";
+            this.DevNo.Name = "DevNo";
+            this.DevNo.ReadOnly = true;
+            // 
+            // EventType
+            // 
+            this.EventType.HeaderText = "事件类型";
+            this.EventType.Name = "EventType";
+            this.EventType.ReadOnly = true;
+            // 
+            // SilkNo
+            // 
+            this.SilkNo.HeaderText = "丝道号";
+            this.SilkNo.Name = "SilkNo";
+            this.SilkNo.ReadOnly = true;
+            // 
+            // EventTime
+            // 
+            this.EventTime.HeaderText = "事件时间";
+            this.EventTime.Name = "EventTime";
+            this.EventTime.ReadOnly = true;
+            this.EventTime.Width = 200;
+            // 
+            // groupPanel5
+            // 
+            this.groupPanel5.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel5.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
+            this.groupPanel5.Controls.Add(this.groupPanel6);
+            this.groupPanel5.Controls.Add(this.cmbSleId);
+            this.groupPanel5.Controls.Add(this.chkAction);
+            this.groupPanel5.Controls.Add(this.btnQuery);
+            this.groupPanel5.Controls.Add(this.dtpEndTime);
+            this.groupPanel5.Controls.Add(this.dtpEndDay);
+            this.groupPanel5.Controls.Add(this.dtpStartTime);
+            this.groupPanel5.Controls.Add(this.label5);
+            this.groupPanel5.Controls.Add(this.label4);
+            this.groupPanel5.Controls.Add(this.dtpStartDay);
+            this.groupPanel5.Controls.Add(this.label1);
+            this.groupPanel5.Controls.Add(this.txtEventCode);
+            this.groupPanel5.Controls.Add(this.chkEventCode);
+            this.groupPanel5.Location = new System.Drawing.Point(12, 12);
+            this.groupPanel5.Name = "groupPanel5";
+            this.groupPanel5.Size = new System.Drawing.Size(768, 91);
+            // 
+            // 
+            // 
+            this.groupPanel5.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel5.Style.BackColorGradientAngle = 90;
+            this.groupPanel5.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel5.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderBottomWidth = 1;
+            this.groupPanel5.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel5.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderLeftWidth = 1;
+            this.groupPanel5.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderRightWidth = 1;
+            this.groupPanel5.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderTopWidth = 1;
+            this.groupPanel5.Style.CornerDiameter = 4;
+            this.groupPanel5.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel5.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel5.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel5.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            this.groupPanel5.TabIndex = 3;
+            this.groupPanel5.Text = "查询条件";
+            // 
+            // cmbSleId
+            // 
+            this.cmbSleId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSleId.FormattingEnabled = true;
+            this.cmbSleId.Location = new System.Drawing.Point(106, 10);
+            this.cmbSleId.Name = "cmbSleId";
+            this.cmbSleId.Size = new System.Drawing.Size(134, 20);
+            this.cmbSleId.TabIndex = 26;
+            // 
+            // chkAction
+            // 
+            this.chkAction.AutoSize = true;
+            this.chkAction.BackColor = System.Drawing.Color.Transparent;
+            this.chkAction.Checked = true;
+            this.chkAction.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkAction.Location = new System.Drawing.Point(278, 13);
+            this.chkAction.Name = "chkAction";
+            this.chkAction.Size = new System.Drawing.Size(48, 16);
+            this.chkAction.TabIndex = 25;
+            this.chkAction.Text = "类型";
+            this.chkAction.UseVisualStyleBackColor = false;
+            // 
+            // btnQuery
+            // 
+            this.btnQuery.Location = new System.Drawing.Point(638, 38);
+            this.btnQuery.Name = "btnQuery";
+            this.btnQuery.Size = new System.Drawing.Size(108, 31);
+            this.btnQuery.TabIndex = 9;
+            this.btnQuery.Text = "查询";
+            this.btnQuery.UseVisualStyleBackColor = true;
+            this.btnQuery.Click += new System.EventHandler(this.btnQuery_Click);
+            // 
+            // dtpEndTime
+            // 
+            this.dtpEndTime.CustomFormat = "HH:mm";
+            this.dtpEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpEndTime.Location = new System.Drawing.Point(471, 43);
+            this.dtpEndTime.Name = "dtpEndTime";
+            this.dtpEndTime.ShowUpDown = true;
+            this.dtpEndTime.Size = new System.Drawing.Size(65, 21);
+            this.dtpEndTime.TabIndex = 24;
+            // 
+            // dtpEndDay
+            // 
+            this.dtpEndDay.CustomFormat = "yyyy年M月d日";
+            this.dtpEndDay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpEndDay.Location = new System.Drawing.Point(359, 43);
+            this.dtpEndDay.Name = "dtpEndDay";
+            this.dtpEndDay.Size = new System.Drawing.Size(109, 21);
+            this.dtpEndDay.TabIndex = 23;
+            // 
+            // dtpStartTime
+            // 
+            this.dtpStartTime.CustomFormat = "HH:mm";
+            this.dtpStartTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpStartTime.Location = new System.Drawing.Point(222, 42);
+            this.dtpStartTime.Name = "dtpStartTime";
+            this.dtpStartTime.ShowUpDown = true;
+            this.dtpStartTime.Size = new System.Drawing.Size(61, 21);
+            this.dtpStartTime.TabIndex = 22;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Location = new System.Drawing.Point(309, 47);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 12);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "终止:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(65, 47);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 12);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "起始:";
+            // 
+            // dtpStartDay
+            // 
+            this.dtpStartDay.CustomFormat = "yyyy年M月d日";
+            this.dtpStartDay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpStartDay.Location = new System.Drawing.Point(106, 42);
+            this.dtpStartDay.Name = "dtpStartDay";
+            this.dtpStartDay.Size = new System.Drawing.Size(111, 21);
+            this.dtpStartDay.TabIndex = 18;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(5, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(95, 12);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "设备ID号(必填):";
+            // 
+            // txtEventCode
+            // 
+            this.txtEventCode.Enabled = false;
+            this.txtEventCode.Location = new System.Drawing.Point(638, 12);
+            this.txtEventCode.MaxLength = 10;
+            this.txtEventCode.Name = "txtEventCode";
+            this.txtEventCode.Size = new System.Drawing.Size(108, 21);
+            this.txtEventCode.TabIndex = 10;
+            this.txtEventCode.Text = "请输入2位消息代码";
+            // 
+            // chkEventCode
+            // 
+            this.chkEventCode.AutoSize = true;
+            this.chkEventCode.BackColor = System.Drawing.Color.Transparent;
+            this.chkEventCode.Location = new System.Drawing.Point(560, 17);
+            this.chkEventCode.Name = "chkEventCode";
+            this.chkEventCode.Size = new System.Drawing.Size(72, 16);
+            this.chkEventCode.TabIndex = 9;
+            this.chkEventCode.Text = "消息类型";
+            this.chkEventCode.UseVisualStyleBackColor = false;
+            // 
+            // groupPanel6
+            // 
+            this.groupPanel6.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel6.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.VS2005;
+            this.groupPanel6.Controls.Add(this.rbtnStop);
+            this.groupPanel6.Controls.Add(this.rbtnWarnning);
+            this.groupPanel6.Controls.Add(this.rbtnEvent);
+            this.groupPanel6.Location = new System.Drawing.Point(332, 3);
+            this.groupPanel6.Name = "groupPanel6";
+            this.groupPanel6.Size = new System.Drawing.Size(204, 30);
+            // 
+            // 
+            // 
+            this.groupPanel6.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel6.Style.BackColorGradientAngle = 90;
+            this.groupPanel6.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel6.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel6.Style.BorderBottomWidth = 1;
+            this.groupPanel6.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel6.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel6.Style.BorderLeftWidth = 1;
+            this.groupPanel6.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel6.Style.BorderRightWidth = 1;
+            this.groupPanel6.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel6.Style.BorderTopWidth = 1;
+            this.groupPanel6.Style.CornerDiameter = 4;
+            this.groupPanel6.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel6.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel6.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel6.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            this.groupPanel6.TabIndex = 27;
+            // 
+            // rbtnStop
+            // 
+            this.rbtnStop.AutoSize = true;
+            this.rbtnStop.BackColor = System.Drawing.Color.Transparent;
+            this.rbtnStop.Checked = true;
+            this.rbtnStop.Location = new System.Drawing.Point(140, 6);
+            this.rbtnStop.Name = "rbtnStop";
+            this.rbtnStop.Size = new System.Drawing.Size(47, 16);
+            this.rbtnStop.TabIndex = 4;
+            this.rbtnStop.TabStop = true;
+            this.rbtnStop.Text = "运营";
+            this.rbtnStop.UseVisualStyleBackColor = false;
+            // 
+            // rbtnWarnning
+            // 
+            this.rbtnWarnning.AutoSize = true;
+            this.rbtnWarnning.BackColor = System.Drawing.Color.Transparent;
+            this.rbtnWarnning.Location = new System.Drawing.Point(63, 7);
+            this.rbtnWarnning.Name = "rbtnWarnning";
+            this.rbtnWarnning.Size = new System.Drawing.Size(71, 16);
+            this.rbtnWarnning.TabIndex = 3;
+            this.rbtnWarnning.Text = "切换失败";
+            this.rbtnWarnning.UseVisualStyleBackColor = false;
+            // 
+            // rbtnEvent
+            // 
+            this.rbtnEvent.AutoSize = true;
+            this.rbtnEvent.BackColor = System.Drawing.Color.Transparent;
+            this.rbtnEvent.Location = new System.Drawing.Point(10, 7);
+            this.rbtnEvent.Name = "rbtnEvent";
+            this.rbtnEvent.Size = new System.Drawing.Size(47, 16);
+            this.rbtnEvent.TabIndex = 2;
+            this.rbtnEvent.Text = "断丝";
+            this.rbtnEvent.UseVisualStyleBackColor = false;
+            // 
+            // frmEvent
+            // 
+            this.ClientSize = new System.Drawing.Size(792, 466);
+            this.Controls.Add(this.dgvEvent);
+            this.Controls.Add(this.groupPanel5);
+            this.Name = "frmEvent";
+            this.Text = "设备事件";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEvent)).EndInit();
+            this.groupPanel5.ResumeLayout(false);
+            this.groupPanel5.PerformLayout();
+            this.groupPanel6.ResumeLayout(false);
+            this.groupPanel6.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dgvEvent;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel5;
+        private System.Windows.Forms.ComboBox cmbSleId;
+        private System.Windows.Forms.CheckBox chkAction;
+        private System.Windows.Forms.Button btnQuery;
+        private System.Windows.Forms.DateTimePicker dtpEndTime;
+        private System.Windows.Forms.DateTimePicker dtpEndDay;
+        private System.Windows.Forms.DateTimePicker dtpStartTime;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DateTimePicker dtpStartDay;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtEventCode;
+        private System.Windows.Forms.CheckBox chkEventCode;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DevNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EventType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SilkNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EventTime;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel6;
+        private System.Windows.Forms.RadioButton rbtnStop;
+        private System.Windows.Forms.RadioButton rbtnWarnning;
+        private System.Windows.Forms.RadioButton rbtnEvent;
+
+      
+    }
+}
